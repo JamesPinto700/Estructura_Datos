@@ -42,3 +42,14 @@ function verificarUsuario(usuario) {
     const nombre = usuario?.nombre
     return nombre !== undefined ? `Hola, ${nombre}` : 'undefined (el objeto es null)'
 }
+
+//Ejercicios hechos en clases 16-06-2026.
+let nombre = "Fernando"
+
+if (nombre === "Fernando"){
+    console.log('Hola fer')
+} else if (nombre === "Cristian"){
+    console.log('Hola Cris')
+} else {
+    console.log("No encontre tu nombre")
+}
