@@ -1,0 +1,12 @@
+# Archivos compilados de Java
+*.class
+
+# Carpetas de build comunes
+target/
+bin/
+out/
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.iml
