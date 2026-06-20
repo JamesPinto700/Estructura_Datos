@@ -10,3 +10,9 @@ out/
 .vscode/
 .idea/
 *.iml
+
+# Dependencias de Node.js
+node_modules/
+
+# Archivos temporales de Code Runner
+tempCodeRunnerFile.js
