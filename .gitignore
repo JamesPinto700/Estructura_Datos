@@ -16,3 +16,15 @@ node_modules/
 
 # Archivos temporales de Code Runner
 tempCodeRunnerFile.js
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
