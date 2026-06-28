@@ -14,6 +14,9 @@ out/
 # Dependencias de Node.js
 node_modules/
 
+# Cache de npm
+.npm/
+
 # Archivos temporales de Code Runner
 tempCodeRunnerFile.js
 
@@ -28,3 +31,12 @@ Thumbs.db
 
 # Archivos de entorno
 .env
+
+# Archivos de prueba o de uso personal (no forman parte de la entrega)
+test_*.js
+*_test.js
+prueba_*.js
+
+# Archivos temporales de Word/PowerPoint al tener el documento abierto
+~$*.docx
+~$*.pptx
