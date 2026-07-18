@@ -39,11 +39,9 @@ class ArbolBPacientes {
         this.raiz = null;
         this.t = t;
     }
-
     buscar(k) {
         return this.raiz ? this.raiz.buscar(k) : null;
     }
-
     // Implementar inserción
     construirDesdeArreglo(clavesOrdenadas) {
         const t = this.t;
@@ -58,12 +56,10 @@ class ArbolBPacientes {
             nodo.n = nodo.claves.length;
             nivelActual.push(nodo);
         }
-
         if (nivelActual.length === 1) {
             this.raiz = nivelActual[0];
             return;
         }
-
         // 2. Construir niveles superiores agrupando hijos, hasta llegar a 1 sola raíz
         while (nivelActual.length > 1) {
             const siguienteNivel = [];
@@ -78,10 +74,8 @@ class ArbolBPacientes {
             }
             nivelActual = siguienteNivel;
         }
-
         this.raiz = nivelActual[0];
     }
-
     // Altura real del árbol ya construido (cuenta niveles, incluyendo el de hojas)
     altura() {
         let h = 0;
